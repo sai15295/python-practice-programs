@@ -1,0 +1,13 @@
+a = int(input("Enter side 1:  "))
+b = int(input("Enter side 2:  "))
+c = int(input("Enter side 3:  "))
+if a==b and b==c and a==c:
+	print("Equilateral triangle")
+elif a==b and b!=c and a!=c:
+	print("Isoceles triangle")
+elif b==c and a!=b and c!=b:
+	print("Isoceles triangle")
+elif a==c and a!=b and b!=c:
+	print("Isoceles triangle")
+else:
+	print("Scalene triangle")
