@@ -1,0 +1,9 @@
+CP = int(input("Enter Cost price:  "))
+SP = int(input("Enter Selling price:  "))
+if SP>CP:
+	print("PROFIT")
+elif CP>SP:
+	print("LOSS")
+else:
+	print("No PROFIT")
+	print("No LOSS")
