@@ -12,5 +12,5 @@ for i in range(n,N+1):
 		count+=1
 		sum+=i
 print("Count of these prime numbers: ",count)
-print("Sum of these prime numbers: ",sum)
+print("Sum  of these prime numbers: ",sum)
 
